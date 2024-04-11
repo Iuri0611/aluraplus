@@ -137,3 +137,31 @@ a{
 .lista__link:hover{
     background-color: var(--cor--botao);
 }
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        background-image: none;
+        align-items: center;
+    }
+    .imagem{
+        width: 50vw;
+        
+    }
+    .caixa{
+        margin: 2em 2em;
+    }
+    .secundario{
+        text-align: center;
+        margin: 0;
+    }
+    .imagem__secundaria{
+        width: 50vw;
+    }
+    .dispositivos__lista{
+        display: block;
+    }
+    .rodape__lista{
+        display: block;
+    }
+    
+}
