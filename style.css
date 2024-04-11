@@ -163,5 +163,8 @@ a{
     .rodape__lista{
         display: block;
     }
+    .secundario__imagem{
+        width: 30vw;
+    }
     
 }
